@@ -1,13 +1,30 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>audio</ion-title>
+    <ion-buttons slot="start" routerLink="/tabs/tab1">
+      <ion-icon slot="icon-only" name="arrow-back-outline"></ion-icon>
+    </ion-buttons>
+    <ion-title></ion-title>
+    <ion-title>Escuchando</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <ion-header collapse="condense"></ion-header>
+
+  <ion-footer>
     <ion-toolbar>
-      <ion-title size="large">audio</ion-title>
+      
+      <ion-buttons slot="start">
+        <ion-button>
+          <ion-icon slot="icon-only" name="pause-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-buttons slot="primary">
+        <ion-button>
+          <ion-icon name="caret-forward-circle-outline"></ion-icon>        </ion-button>
+      </ion-buttons>
+      
     </ion-toolbar>
-  </ion-header>
+  </ion-footer>
+
 </ion-content>
