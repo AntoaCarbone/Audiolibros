@@ -1,0 +1,7 @@
+{
+  "name": "AudioLibros",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
